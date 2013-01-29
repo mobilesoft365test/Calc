@@ -11,5 +11,10 @@ namespace CalcTest
     [TestFixture]
     public class TestMethods
     {
+        [Test]
+        public static void AddTest()
+        {
+            Assert.AreEqual(Operations.Add(3,5),8);
+        }
     }
 }

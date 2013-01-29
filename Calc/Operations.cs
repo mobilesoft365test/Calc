@@ -5,7 +5,7 @@ using System.Text;
 
 namespace Calc
 {
-    class Operations
+    public class Operations
     {
         public static int Add(int a, int b)
         {
