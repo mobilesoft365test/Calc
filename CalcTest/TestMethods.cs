@@ -16,5 +16,11 @@ namespace CalcTest
         {
             Assert.AreEqual(Operations.Add(3,5),8);
         }
+
+        [Test]
+        public static void MultTest()
+        {
+            Assert.AreEqual(Operations.Mult(3, 5), 15);
+        }
     }
 }
