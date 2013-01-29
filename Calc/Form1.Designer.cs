@@ -56,6 +56,7 @@
             this.MultBtn.TabIndex = 1;
             this.MultBtn.Text = "Multiple";
             this.MultBtn.UseVisualStyleBackColor = true;
+            this.MultBtn.Click += new System.EventHandler(this.MultBtn_Click);
             // 
             // BoxA
             // 
@@ -63,6 +64,7 @@
             this.BoxA.Name = "BoxA";
             this.BoxA.Size = new System.Drawing.Size(100, 20);
             this.BoxA.TabIndex = 2;
+            this.BoxA.Enter += new System.EventHandler(this.BoxAFocus);
             // 
             // BoxB
             // 
@@ -70,6 +72,7 @@
             this.BoxB.Name = "BoxB";
             this.BoxB.Size = new System.Drawing.Size(100, 20);
             this.BoxB.TabIndex = 3;
+            this.BoxB.Enter += new System.EventHandler(this.BoxBFocus);
             // 
             // label1
             // 
