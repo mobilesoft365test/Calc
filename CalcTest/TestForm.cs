@@ -34,6 +34,30 @@ namespace CalcTest
             string expected = "14";
             AddBtnTester.Click();
             Assert.AreEqual(resBoxTester.Text,expected);
+
+            aBoxTester.Enter("0");
+            bBoxTester.Enter("1984");
+            expected = "1984";
+            AddBtnTester.Click();
+            Assert.AreEqual(resBoxTester.Text, expected);
+
+            aBoxTester.Enter("-115");
+            bBoxTester.Enter("-9564");
+            expected = "-9679";
+            AddBtnTester.Click();
+            Assert.AreEqual(resBoxTester.Text, expected);
+
+            aBoxTester.Enter("-75");
+            bBoxTester.Enter("257");
+            expected = "182";
+            AddBtnTester.Click();
+            Assert.AreEqual(resBoxTester.Text, expected);
+            
+            aBoxTester.Enter("451");
+            bBoxTester.Enter("-3779");
+            expected = "-3328";
+            AddBtnTester.Click();
+            Assert.AreEqual(resBoxTester.Text, expected);
         }
 
         public void CorrectMultTest()
