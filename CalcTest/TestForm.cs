@@ -16,6 +16,7 @@ namespace CalcTest
         TextBoxTester bBoxTester = new TextBoxTester("BoxB");
         TextBoxTester resBoxTester = new TextBoxTester("BoxResult");
         ButtonTester AddBtnTester = new ButtonTester("AddBtn");
+        ButtonTester MultBtnTester = new ButtonTester("MultBtn");
         Calc.Form1 _form1;
         public override void Setup()
         {
@@ -35,7 +36,15 @@ namespace CalcTest
             Assert.AreEqual(resBoxTester.Text,expected);
         }
 
-                
+        public void CorrectMultTest()
+        {
+            aBoxTester.Enter("3");
+            bBoxTester.Enter("8");
+            string expected = "24";
+            MultBtnTester.Click();
+            Assert.AreEqual(resBoxTester.Text, expected);
+        }
+        
         //Negative tests
 
     }
