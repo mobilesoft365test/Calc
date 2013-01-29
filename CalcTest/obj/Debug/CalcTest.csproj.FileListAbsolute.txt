@@ -3,3 +3,9 @@ c:\users\administrator\documents\visual studio 2010\Projects\Calc\CalcTest\bin\D
 c:\users\administrator\documents\visual studio 2010\Projects\Calc\CalcTest\obj\Debug\CalcTest.dll
 c:\users\administrator\documents\visual studio 2010\Projects\Calc\CalcTest\obj\Debug\CalcTest.pdb
 C:\Users\Administrator\documents\visual studio 2010\Projects\Calc\CalcTest\obj\Debug\CalcTest.csprojResolveAssemblyReference.cache
+C:\Users\Administrator\documents\visual studio 2010\Projects\Calc\CalcTest\bin\Debug\Calc.exe
+C:\Users\Administrator\documents\visual studio 2010\Projects\Calc\CalcTest\bin\Debug\nunit.framework.dll
+C:\Users\Administrator\documents\visual studio 2010\Projects\Calc\CalcTest\bin\Debug\NUnitForms.dll
+C:\Users\Administrator\documents\visual studio 2010\Projects\Calc\CalcTest\bin\Debug\NUnitForms.ScreenCapture.exe
+C:\Users\Administrator\documents\visual studio 2010\Projects\Calc\CalcTest\bin\Debug\Calc.pdb
+C:\Users\Administrator\documents\visual studio 2010\Projects\Calc\CalcTest\bin\Debug\nunit.framework.xml
