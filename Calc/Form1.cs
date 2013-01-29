@@ -25,7 +25,7 @@ namespace Calc
             catch (Exception)
             {
                 MessageBox.Show("Please check input data: must be integer values only!", "Input data error!");
-                BoxResult.Text = "Error";
+                BoxResult.Text = "";
             }
 
         }
