@@ -58,6 +58,12 @@ namespace CalcTest
             expected = "-3328";
             AddBtnTester.Click();
             Assert.AreEqual(resBoxTester.Text, expected);
+
+            aBoxTester.Enter("0");
+            bBoxTester.Enter("0");
+            expected = "0";
+            AddBtnTester.Click();
+            Assert.AreEqual(resBoxTester.Text, expected);
         }
 
         public void CorrectMultTest()
@@ -65,6 +71,30 @@ namespace CalcTest
             aBoxTester.Enter("3");
             bBoxTester.Enter("8");
             string expected = "24";
+            MultBtnTester.Click();
+            Assert.AreEqual(resBoxTester.Text, expected);
+
+            aBoxTester.Enter("77");
+            bBoxTester.Enter("0");
+            expected = "0";
+            MultBtnTester.Click();
+            Assert.AreEqual(resBoxTester.Text, expected);
+
+            aBoxTester.Enter("-3");
+            bBoxTester.Enter("-20");
+            expected = "60";
+            MultBtnTester.Click();
+            Assert.AreEqual(resBoxTester.Text, expected);
+
+            aBoxTester.Enter("-7");
+            bBoxTester.Enter("10");
+            expected = "-70";
+            MultBtnTester.Click();
+            Assert.AreEqual(resBoxTester.Text, expected);
+
+            aBoxTester.Enter("0");
+            bBoxTester.Enter("0");
+            expected = "0";
             MultBtnTester.Click();
             Assert.AreEqual(resBoxTester.Text, expected);
         }
