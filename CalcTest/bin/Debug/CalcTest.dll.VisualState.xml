@@ -1,11 +1,12 @@
 <?xml version="1.0" encoding="utf-8"?>
 <VisualState xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:xsd="http://www.w3.org/2001/XMLSchema" ShowCheckBoxes="false">
-  <TopNode>[0-1004]C:\Users\Administrator\Documents\Visual Studio 2010\Projects\Calc\CalcTest\bin\Debug\CalcTest.dll</TopNode>
-  <SelectedNode>[0-1000]CalcTest.TestMethods</SelectedNode>
+  <TopNode>[0-1006]C:\Users\Administrator\Documents\Visual Studio 2010\Projects\Calc\CalcTest\bin\Debug\CalcTest.dll</TopNode>
+  <SelectedNode>[0-1005]CalcTest.TestForm.NoDataTest</SelectedNode>
   <ExcludeCategories>false</ExcludeCategories>
   <Nodes>
-    <Node UniqueName="[0-1004]C:\Users\Administrator\Documents\Visual Studio 2010\Projects\Calc\CalcTest\bin\Debug\CalcTest.dll" Expanded="true" />
-    <Node UniqueName="[0-1005]CalcTest" Expanded="true" />
+    <Node UniqueName="[0-1006]C:\Users\Administrator\Documents\Visual Studio 2010\Projects\Calc\CalcTest\bin\Debug\CalcTest.dll" Expanded="true" />
+    <Node UniqueName="[0-1007]CalcTest" Expanded="true" />
+    <Node UniqueName="[0-1003]CalcTest.TestForm" Expanded="true" />
     <Node UniqueName="[0-1000]CalcTest.TestMethods" Expanded="true" />
   </Nodes>
 </VisualState>

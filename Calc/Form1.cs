@@ -24,8 +24,7 @@ namespace Calc
             }
             catch (Exception)
             {
-                MessageBox.Show("Please check input data: must be integer values only!", "Input data error!");
-                BoxResult.Text = "";
+              ShowErrorDialog();
             }
 
         }
@@ -38,10 +37,14 @@ namespace Calc
             }
             catch (Exception)
             {
-                MessageBox.Show("Please check input data: must be integer values only!", "Input data error!");
-                BoxResult.Text = "";
+               ShowErrorDialog();
             }
+        }
 
+        public void ShowErrorDialog()
+        {
+            MessageBox.Show("Please check input data: must be integer values only!", "Input data error!");
+            BoxResult.Text = "";
         }
 
         private void BoxAFocus(object sender, EventArgs e)
@@ -52,6 +55,23 @@ namespace Calc
         private void BoxBFocus(object sender, EventArgs e)
         {
             BoxB.Text = "";
+        }
+
+        private void button1_Click(object sender, EventArgs e)
+        {
+            var testForm1 = new testForm1();
+            testForm1.ShowDialog();
+        }
+
+        private void button2_Click(object sender, EventArgs e)
+        {
+            var testForm2 = new testForm2();
+            testForm2.ShowDialog();
+        }
+
+        private void MessageBtn_Click(object sender, EventArgs e)
+        {
+            MessageBox.Show("Test", "Test");
         }
 
 

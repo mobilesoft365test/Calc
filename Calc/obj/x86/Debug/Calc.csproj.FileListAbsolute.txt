@@ -5,3 +5,5 @@ c:\users\administrator\documents\visual studio 2010\Projects\Calc\Calc\obj\x86\D
 c:\users\administrator\documents\visual studio 2010\Projects\Calc\Calc\obj\x86\Debug\Calc.csproj.GenerateResource.Cache
 c:\users\administrator\documents\visual studio 2010\Projects\Calc\Calc\obj\x86\Debug\Calc.exe
 c:\users\administrator\documents\visual studio 2010\Projects\Calc\Calc\obj\x86\Debug\Calc.pdb
+C:\Users\Administrator\documents\visual studio 2010\Projects\Calc\Calc\obj\x86\Debug\Calc.TestForm1.resources
+C:\Users\Administrator\documents\visual studio 2010\Projects\Calc\Calc\obj\x86\Debug\Calc.TestForm2.resources

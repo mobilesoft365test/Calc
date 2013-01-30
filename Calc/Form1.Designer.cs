@@ -36,6 +36,9 @@
             this.label2 = new System.Windows.Forms.Label();
             this.BoxResult = new System.Windows.Forms.TextBox();
             this.label3 = new System.Windows.Forms.Label();
+            this.Form1Btn = new System.Windows.Forms.Button();
+            this.Form2Btn = new System.Windows.Forms.Button();
+            this.MessageBtn = new System.Windows.Forms.Button();
             this.SuspendLayout();
             // 
             // AddBtn
@@ -108,11 +111,44 @@
             this.label3.TabIndex = 7;
             this.label3.Text = "Result";
             // 
+            // Form1Btn
+            // 
+            this.Form1Btn.Location = new System.Drawing.Point(46, 231);
+            this.Form1Btn.Name = "Form1Btn";
+            this.Form1Btn.Size = new System.Drawing.Size(117, 23);
+            this.Form1Btn.TabIndex = 8;
+            this.Form1Btn.Text = "Open Form 1";
+            this.Form1Btn.UseVisualStyleBackColor = true;
+            this.Form1Btn.Click += new System.EventHandler(this.button1_Click);
+            // 
+            // Form2Btn
+            // 
+            this.Form2Btn.Location = new System.Drawing.Point(46, 260);
+            this.Form2Btn.Name = "Form2Btn";
+            this.Form2Btn.Size = new System.Drawing.Size(117, 23);
+            this.Form2Btn.TabIndex = 9;
+            this.Form2Btn.Text = "Open Form 2";
+            this.Form2Btn.UseVisualStyleBackColor = true;
+            this.Form2Btn.Click += new System.EventHandler(this.button2_Click);
+            // 
+            // MessageBtn
+            // 
+            this.MessageBtn.Location = new System.Drawing.Point(63, 202);
+            this.MessageBtn.Name = "MessageBtn";
+            this.MessageBtn.Size = new System.Drawing.Size(82, 23);
+            this.MessageBtn.TabIndex = 10;
+            this.MessageBtn.Text = "MessageBox";
+            this.MessageBtn.UseVisualStyleBackColor = true;
+            this.MessageBtn.Click += new System.EventHandler(this.MessageBtn_Click);
+            // 
             // Form1
             // 
             this.AutoScaleDimensions = new System.Drawing.SizeF(6F, 13F);
             this.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font;
-            this.ClientSize = new System.Drawing.Size(200, 222);
+            this.ClientSize = new System.Drawing.Size(207, 300);
+            this.Controls.Add(this.MessageBtn);
+            this.Controls.Add(this.Form2Btn);
+            this.Controls.Add(this.Form1Btn);
             this.Controls.Add(this.label3);
             this.Controls.Add(this.BoxResult);
             this.Controls.Add(this.label2);
@@ -138,6 +174,9 @@
         private System.Windows.Forms.Label label2;
         private System.Windows.Forms.TextBox BoxResult;
         private System.Windows.Forms.Label label3;
+        private System.Windows.Forms.Button Form1Btn;
+        private System.Windows.Forms.Button Form2Btn;
+        private System.Windows.Forms.Button MessageBtn;
     }
 }
 

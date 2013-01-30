@@ -10,14 +10,15 @@ using NUnit.Extensions.Forms;
 namespace CalcTest
 {
     [TestFixture]
-    class TestForm : NUnitFormTest
+    class TestFormPositive: NUnitFormTest
     {
         TextBoxTester aBoxTester = new TextBoxTester("BoxA");
         TextBoxTester bBoxTester = new TextBoxTester("BoxB");
         TextBoxTester resBoxTester = new TextBoxTester("BoxResult");
         ButtonTester AddBtnTester = new ButtonTester("AddBtn");
         ButtonTester MultBtnTester = new ButtonTester("MultBtn");
-        Calc.Form1 _form1;
+        Calc.Form1 f;
+
         public override void Setup()
         {
             base.Setup();
@@ -66,6 +67,7 @@ namespace CalcTest
             Assert.AreEqual(resBoxTester.Text, expected);
         }
 
+        [Test]
         public void CorrectMultTest()
         {
             aBoxTester.Enter("3");
@@ -99,8 +101,6 @@ namespace CalcTest
             Assert.AreEqual(resBoxTester.Text, expected);
         }
         
-        //Negative tests
-
 
     }
 }
