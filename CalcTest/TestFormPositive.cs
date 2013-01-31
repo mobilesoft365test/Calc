@@ -65,6 +65,12 @@ namespace CalcTest
             expected = "0";
             AddBtnTester.Click();
             Assert.AreEqual(resBoxTester.Text, expected);
+
+            aBoxTester.Enter("-10");
+            bBoxTester.Enter("10");
+            expected = "0";
+            AddBtnTester.Click();
+            Assert.AreEqual(resBoxTester.Text, expected);
         }
 
         [Test]

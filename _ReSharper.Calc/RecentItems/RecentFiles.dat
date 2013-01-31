@@ -1,14 +1,15 @@
 ﻿<RecentFiles>
   <RecentFiles>
-    <File id="39A11AC4-6158-4ED5-A0FD-9058A965EB9F/f:TestForm2.cs" caret="425" fromTop="20" />
     <File id="39A11AC4-6158-4ED5-A0FD-9058A965EB9F/f:Form1.Designer.cs" caret="0" fromTop="0" />
     <File id="6DA8ED18-90C4-45A2-B1C5-9C2810531D7D/f:TestMethods.cs" caret="489" fromTop="22" />
-    <File id="39A11AC4-6158-4ED5-A0FD-9058A965EB9F/f:Form1.cs" caret="1106" fromTop="12" />
-    <File id="6DA8ED18-90C4-45A2-B1C5-9C2810531D7D/f:TestFormNegative.cs" caret="1177" fromTop="24" />
-    <File id="6DA8ED18-90C4-45A2-B1C5-9C2810531D7D/f:TestFormPositive.cs" caret="0" fromTop="0" />
     <File id="39A11AC4-6158-4ED5-A0FD-9058A965EB9F/f:Operations.cs" caret="122" fromTop="7" />
     <File id="39A11AC4-6158-4ED5-A0FD-9058A965EB9F/f:Program.cs" caret="274" fromTop="12" />
-    <File id="6DA8ED18-90C4-45A2-B1C5-9C2810531D7D/f:TestNewForms.cs" caret="1214" fromTop="26" />
+    <File id="39A11AC4-6158-4ED5-A0FD-9058A965EB9F/f:TestForm2.cs" caret="425" fromTop="20" />
+    <File id="6DA8ED18-90C4-45A2-B1C5-9C2810531D7D/f:TestFormPositive.cs" caret="0" fromTop="0" />
+    <File id="39A11AC4-6158-4ED5-A0FD-9058A965EB9F/f:TestForm1.cs" caret="436" fromTop="20" />
+    <File id="39A11AC4-6158-4ED5-A0FD-9058A965EB9F/f:Form1.cs" caret="1027" fromTop="27" />
+    <File id="6DA8ED18-90C4-45A2-B1C5-9C2810531D7D/f:TestNewForms.cs" caret="635" fromTop="12" />
+    <File id="6DA8ED18-90C4-45A2-B1C5-9C2810531D7D/f:TestFormNegative.cs" caret="2200" fromTop="23" />
   </RecentFiles>
   <RecentEdits>
     <File id="39A11AC4-6158-4ED5-A0FD-9058A965EB9F/f:Program.cs" caret="97" fromTop="3" />
@@ -16,8 +17,9 @@
     <File id="6DA8ED18-90C4-45A2-B1C5-9C2810531D7D/f:TestMethods.cs" caret="489" fromTop="22" />
     <File id="6DA8ED18-90C4-45A2-B1C5-9C2810531D7D/f:TestFormPositive.cs" caret="2129" fromTop="36" />
     <File id="39A11AC4-6158-4ED5-A0FD-9058A965EB9F/f:TestForm2.cs" caret="5814" fromTop="20" />
-    <File id="6DA8ED18-90C4-45A2-B1C5-9C2810531D7D/f:TestFormNegative.cs" caret="1177" fromTop="24" />
-    <File id="39A11AC4-6158-4ED5-A0FD-9058A965EB9F/f:Form1.cs" caret="1106" fromTop="12" />
-    <File id="6DA8ED18-90C4-45A2-B1C5-9C2810531D7D/f:TestNewForms.cs" caret="1213" fromTop="26" />
+    <File id="39A11AC4-6158-4ED5-A0FD-9058A965EB9F/f:TestForm1.cs" caret="436" fromTop="20" />
+    <File id="6DA8ED18-90C4-45A2-B1C5-9C2810531D7D/f:TestNewForms.cs" caret="366" fromTop="16" />
+    <File id="39A11AC4-6158-4ED5-A0FD-9058A965EB9F/f:Form1.cs" caret="1027" fromTop="27" />
+    <File id="6DA8ED18-90C4-45A2-B1C5-9C2810531D7D/f:TestFormNegative.cs" caret="2200" fromTop="23" />
   </RecentEdits>
 </RecentFiles>
